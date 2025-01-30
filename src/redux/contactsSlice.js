@@ -36,8 +36,6 @@ const slice = createSlice({
   },
 });
 
-// Експортуємо фабрики екшенів
 export const { addContact, deleteContact } = slice.actions;
 
-// Експортуємо редюсер слайсу
 export default slice.reducer;
